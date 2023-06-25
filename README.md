@@ -21,7 +21,7 @@ Using the template? Happy to accept any PR with modifications made e.g. sub-path
 
 ## Motivation
 
-I wanted to port my existing blog to Nextjs and Tailwind CSS but there was no easy out of the box template to use so I decided to create one.
+I wanted to port my existing blog to Nextjs anxd Tailwind CSS but there was no easy out of the box template to use so I decided to create one.
 
 It is inspired by [Lee Robinson's blog](https://github.com/leerob/leerob.io), but focuses only on static site generation. Design is adapted from [Tailwindlabs blog](https://github.com/tailwindlabs/blog.tailwindcss.com).
 
@@ -33,7 +33,6 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Near perfect lighthouse score - [Lighthouse report](https://www.webpagetest.org/result/210111_DiC1_08f3670c3430bf4a9b76fc3b927716c5/)
 - Lightweight, 43kB first load JS, uses Preact in production build
 - Mobile-friendly view
-- Light and dark theme
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
 - Server-side syntax highlighting with [rehype-prism](https://github.com/mapbox/rehype-prism)
 - Math display supported via [KaTeX](https://katex.org/)

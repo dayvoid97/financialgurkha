@@ -1,28 +1,24 @@
 ---
-name: Timothy Lin
+name: Kanchan Sharma
 avatar: /static/img/avatar.png
-occupation: Co-founder
-company: Cylynx
-email: timothy.lin@alumni.ubc.ca
-twitter: https://twitter.com/timlrxx
-linkedin: https://www.linkedin.com/in/timlrx
-github: https://github.com/timlrx
+occupation: Founder CEO
+company: Financial Gurkha
+email: contact@kanchanksharma.com
+twitter: 'https://twitter.com/SharmaKanchaan'
+linkedin: 'https://www.linkedin.com/in/sharmakanchan3154/'
+github: ''
 ---
 
-Welcome to Quasilinear Musings! This blog serves as a playground for me to experiment
-with ideas and share some of my findings. It's a reflection of my career path and
+Welcome to Financial Gurkha! Financial Gurkha is the go-to stop to explore the world of Finance. Stock market news, technical analysis, equity research, delta, data and analysis, that's what we specialize in
+
+# Hi, I am Kanchan Sharma
+
+Financial Gurkha is my long-time passion project and the reflection of my career path and
 interests - especially on the technical side of things. For more information, check
-out my [Linkedin profile](https://www.linkedin.com/in/timlrx).
+out my [Linkedin profile](https://www.linkedin.com/in/sharmakanchan3154/).
 
-I am proficient in R, Python and Javascript. My current interests are in the areas of
-network analytics, full-stack development, technology and labour economics so expect
-to see more of these stuff in the future! This blog is bootstrapped from the awesome
-[Tailwind Nextjs Starter Blog Template](https://github.com/timlrx/tailwind-nextjs-starter-blog)
-(coincidentally written by me). Source code for the website is available at my
-[Github page](https://github.com/timlrx/timlrx.com).
+## Where my career choice and interests align
 
-Highlights - check out my analysis on migration and food consumption which I have
-written up as part of my masters thesis [slides available here](/static/mig_cons_slides/index.html) or
-preview the [Singapore economy dashboard](/dashboard/sg-dashboard.html). For a
-more technical read check out how to [create a custom cross-validation function in pyspark](/blog/creating-a-custom-cross-validation-function-in-pyspark)
-or my thoughts on [using DAGs in causal inference](/blog/applications-of-dags-in-causal-inference)
+Finance, Markets, Writing, and websites are where my interests collide and I try to utilize every second of spare mental capacity in skilling myself further in these 4 fields.
+
+#### Got Questions? Email me. Click the email logo below.

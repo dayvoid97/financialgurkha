@@ -1,28 +1,28 @@
 const siteMetadata = {
-  title: 'Quasilinear Musings',
-  author: 'Timothy Lin',
-  headerTitle: 'Quasilinear Musings',
-  description: 'Thoughts from a wandering mind',
+  title: 'Financial Gurkha',
+  author: 'Kanchan Sharma',
+  headerTitle: 'Financial Gurkha',
+  description: 'Financial Gurkhs provides the best financial insights and actionable signals',
   language: 'en-us',
-  siteUrl: 'https://www.timlrx.com',
-  siteRepo: 'https://github.com/timlrx/timlrx.com',
+  siteUrl: 'https://financialgurkha.com',
+  siteRepo: '',
   image: '/static/img/avatar.png',
   socialBanner: '/static/img/twitter-card.png',
-  email: 'timothy.lin@alumni.ubc.ca',
-  github: 'https://github.com/timlrx',
-  twitter: 'https://twitter.com/timlrxx',
-  linkedin: 'https://www.linkedin.com/in/timlrx',
+  email: 'contact@kanchanksharma.com',
+  // github: 'https://github.com/timlrx',
+  twitter: 'https://twitter.com/FinancialGurkha',
+  linkedin: 'https://www.linkedin.com/in/sharmakanchan3154/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: false, // e.g. tailwind-nextjs-starter-blog.vercel.app
-    simpleAnalytics: false, // true or false
-    googleAnalyticsId: 'UA-100201704-1', // e.g. UA-000000-2 or G-XXXXXXX
+    // plausibleDataDomain: false, // e.g. tailwind-nextjs-starter-blog.vercel.app
+    // simpleAnalytics: false, // true or false
+    googleAnalyticsId: 'G-1NDRE7GK9K', // e.g. UA-000000-2 or G-XXXXXXX
   },
-  newsletter: {
-    // Please add your .env file and modify it according to your selection
-    provider: 'emailOctopus',
-  },
+  // newsletter: {
+  //   // Please add your .env file and modify it according to your selection
+  //   provider: 'emailOctopus',
+  // },
   comment: {
     provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
