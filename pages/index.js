@@ -32,7 +32,11 @@ export default function Home({ posts }) {
             </h2>
           </div>
           <div className="flex items-center justify-center mx-2 my-12 w-96">
-            <BlogNewsletterForm title="Subscribe to have posts delivered directly to your inbox" />
+            <img
+              src="static/img/happy-americans.png"
+              alt="Financial Gurkha is a part of the prospering American Melting Pot "
+            ></img>
+            {/* <BlogNewsletterForm title="Subscribe to have posts delivered directly to your inbox" /> */}
           </div>
         </div>
         <h3 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
