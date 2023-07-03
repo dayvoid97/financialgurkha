@@ -2,14 +2,14 @@ const siteMetadata = {
   title: 'Financial Gurkha',
   author: 'Kanchan Sharma',
   headerTitle: 'Financial Gurkha',
-  description: 'Financial Gurkhs provides the best financial insights and actionable signals',
+  description: 'Financial Gurkhs provides the best financial signals and actionable insights',
   language: 'en-us',
   siteUrl: 'https://financialgurkha.com',
-  siteRepo: '',
+  siteRepo: 'https://github.com/dayvoid97/financialgurkha',
   image: '/static/img/avatar.png',
-  socialBanner: '/static/img/twitter-card.png',
+  socialBanner: '/logo.svg',
   email: 'contact@kanchanksharma.com',
-  // github: 'https://github.com/timlrx',
+  github: 'https://github.com/dayvoid97/',
   twitter: 'https://twitter.com/FinancialGurkha',
   linkedin: 'https://www.linkedin.com/in/sharmakanchan3154/',
   locale: 'en-US',
@@ -17,12 +17,12 @@ const siteMetadata = {
     // supports plausible, simpleAnalytics or googleAnalytics
     // plausibleDataDomain: false, // e.g. tailwind-nextjs-starter-blog.vercel.app
     // simpleAnalytics: false, // true or false
-    googleAnalyticsId: 'G-1NDRE7GK9K', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-1NDRE7GK9K',
   },
-  // newsletter: {
-  //   // Please add your .env file and modify it according to your selection
-  //   provider: 'emailOctopus',
-  // },
+  newsletter: {
+    // Please add your .env file and modify it according to your selection
+    provider: 'emailOctopus',
+  },
   comment: {
     provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
