@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Financial Gurkha',
   author: 'Kanchan Sharma',
-  headerTitle: 'Financial Gurkha',
+  headerTitle: '',
   description: 'Financial Gurkhs provides the best financial signals and actionable insights',
   language: 'en-us',
   siteUrl: 'https://financialgurkha.com',
