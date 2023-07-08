@@ -5,7 +5,6 @@ import { BlogNewsletterForm } from '@/components/NewsletterForm'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import Script from 'next/script'
 
 const MAX_DISPLAY = 5
 
@@ -19,18 +18,6 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-N9MVJV15MJ" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-N9MVJV15MJ');
-        `}
-        </Script>
-      </div>
       <div>
         <div className="flex flex-col items-center my-6 xl:flex-row gap-x-12 xl:mb-12">
           <div className="pt-6">

@@ -6,6 +6,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Script from 'next/script'
+import { isLastSlide } from 'public/large-graph-analytics/index_files/reveal.js-3.3.0.1/js/reveal'
 
 const MAX_DISPLAY = 5
 
@@ -20,14 +21,14 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-N9MVJV15MJ" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-N9MVJV15MJ');
+          gtag('config', 'GA_MEASUREMENT_ID');
         `}
         </Script>
       </div>

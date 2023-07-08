@@ -6,6 +6,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Script from 'next/script'
+import { isLastSlide } from 'public/large-graph-analytics/index_files/reveal.js-3.3.0.1/js/reveal'
 
 const MAX_DISPLAY = 5
 

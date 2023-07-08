@@ -20,14 +20,14 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="container">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-N9MVJV15MJ" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
         <Script id="google-analytics">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-N9MVJV15MJ');
+          gtag('config', 'GA_MEASUREMENT_ID');
         `}
         </Script>
       </div>
