@@ -39,7 +39,7 @@ export default function Home({ posts }) {
             </h1>
             <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
               {`${siteMetadata.description}. Explore the world of investing and stock markets with Financial Gurkha.`}{' '}
-              <strong>{'Subscribe'} </strong> {' to receive updates.'}
+              <strong>{'Subscribe'} </strong> {' to stay updated'}
               <br></br>
               <br></br>
             </h2>
