@@ -3,7 +3,7 @@ title: Tesla produces a record 480,000 vechicles in Q2 2023
 date: '2023-07-03'
 tags: ['TSLA', 'stocks', 'manufacturing']
 draft: false
-summary: Tesla produced a record 479,700 vechiles and delivered 466,000 electric cars in Q2 2022, easily surpassing investor expectations.
+summary: Tesla produced a record 479,700 vechiles and delivered 466,000 electric cars in Q2 2022, easily surpassing
 images: ['/static/img/tesla-elon.png']
 layout: PostLayout
 ---
