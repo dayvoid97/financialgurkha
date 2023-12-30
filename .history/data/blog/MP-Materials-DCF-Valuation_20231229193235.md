@@ -49,7 +49,7 @@ The MP Materials Valuation spreadsheet is attached [here](https://docs.google.co
 
 According to our DCF Valuation Model, the MP Materials valuation stands at **\$81.17 per share**. Currently, MP Materials trades at **\$20.16**, implying a massive discount and a great potential for future returns. The valuation's terminal cash flow projections extends to 2040.
 
-**Download the MP Materials Valuation Spreadsheet [here](https://docs.google.com/spreadsheets/d/1Ocv485dIFzTmcCm9vXSecDx_6NmzwB4B/edit#gid=1462514041**)
+**Download the MP Materials Valuation Spreadsheet [here](/static/files/mp-valuation-december-2023.xlsx)**
 
 _Note to Readers: This is a subjective valuation. Stock performance is subject to market risks_
 
