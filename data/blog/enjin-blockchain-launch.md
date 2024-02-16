@@ -8,7 +8,7 @@ images: ['/static/img/enjin-blockchain-launch.png']
 layout: PostLayout
 ---
 
-<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+<TOCInline toc={props.toc} asDisclosure toHeading={3}  />
 
 ![Enjin Blockchain Launch](/static/img/enjin-blockchain-launch.png)
 

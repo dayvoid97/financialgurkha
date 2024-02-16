@@ -1,11 +1,11 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
-import { BlogNewsletterForm } from '@/components/NewsletterForm'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Script from 'next/script'
+
 
 const MAX_DISPLAY = 5
 
@@ -38,22 +38,24 @@ export default function Home({ posts }) {
               Welcome to Financial Gurkha
             </h1>
             <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
-              {`${siteMetadata.description}. Explore the world of investing and stock markets with Financial Gurkha.`}{' '}
+              {` Explore the world of investing with the best stock market signals and actionable insights from Financial Gurkha.`}{' '}
               <strong>{'Subscribe'} </strong> {' to receive updates.'}
-              <br></br>
-              <br></br>
             </h2>
+            <br/>
+            <Link
+    href="/explorer"
+    className="text-primary-500 hover:bg-primary-500 hover:text-white dark:hover:bg-primary-400 dark:hover:text-white font-bold text-lg transition-colors duration-200 ease-in-out"
+    aria-label="explorer"
+  >
+    Explore Global Stocks &rarr;
+  </Link>
           </div>
-          <div className="flex items-center justify-center mx-2 my-12 w-96">
-            <img
-              src="static/img/happy-americans.png"
-              alt="Financial Gurkha is a part of the prospering American Melting Pot "
-            ></img>
-            {/* <BlogNewsletterForm title="Subscribe to have posts delivered directly to your inbox" /> */}
-          </div>
+        
         </div>
+      
+        
         <h3 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
-          Latest Financial Insights
+          Latest Market Insights
         </h3>
         <hr className="border-gray-200 dark:border-gray-700" />
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -119,6 +121,7 @@ export default function Home({ posts }) {
             All Posts &rarr;
           </Link>
         </div>
+        
       )}
     </>
   )

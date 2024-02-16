@@ -8,7 +8,7 @@ images: ['/static/img/tesla-gm-charging-network-partnership.png']
 layout: PostLayout
 ---
 
-<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+<TOCInline toc={props.toc} asDisclosure toHeading={3}  />
 
 ## General Motors and Tesla Collaborate to Standardize and Expand EV Charging Infrastructure
 

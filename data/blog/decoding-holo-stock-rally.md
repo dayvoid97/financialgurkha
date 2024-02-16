@@ -8,7 +8,7 @@ images: ['/static/img/holo-stock-rally-analysis.jpg']
 layout: PostLayout
 ---
 
-<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+<TOCInline toc={props.toc} asDisclosure toHeading={3}  />
 
 # TLDR
 

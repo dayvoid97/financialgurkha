@@ -9,6 +9,7 @@ layout: PostLayout
 ---
 
 <TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
 ## CAVA Shares Surge In Trading
 
 CAVA group saw their stock price rise by more than 15% in the last three trading days. The company's stock [went public](https://financialgurkha.com/blog/cava-ipo) mid June at price of $22 per share.

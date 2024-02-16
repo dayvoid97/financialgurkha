@@ -8,7 +8,7 @@ images: ['/static/img/MP-Materials-DCF.jpeg']
 layout: PostLayout
 ---
 
-<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+<TOCInline toc={props.toc} asDisclosure toHeading={3}  />
 
 ## Introduction
 

@@ -8,7 +8,7 @@ images: ['/static/img/tesla-elon.png']
 layout: PostLayout
 ---
 
-<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+<TOCInline toc={props.toc} asDisclosure toHeading={3}  />
 
 ## Tesla Crushed Q2 2023 Deliveries and Production Figures
 
