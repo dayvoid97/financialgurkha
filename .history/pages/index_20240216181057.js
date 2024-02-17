@@ -6,7 +6,6 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import Script from 'next/script'
 
-
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -41,19 +40,17 @@ export default function Home({ posts }) {
               {` Explore the world of investing with the best stock market signals and actionable insights from Financial Gurkha.`}{' '}
               <strong>{'Subscribe'} </strong> {' to receive updates.'}
             </h2>
-            <br/>
+            <br />
             <Link
-    href="/explorer"
-    className="text-primary-500 hover:bg-primary-500 hover:text-white dark:hover:bg-primary-400 dark:hover:text-white font-bold text-lg transition-colors duration-200 ease-in-out"
-    aria-label="explorer"
-  >
-    Explore Global Stocks &rarr;
-  </Link>
+              href="/explorer"
+              className="text-primary-500 hover:bg-primary-500 hover:text-white dark:hover:bg-primary-400 dark:hover:text-white font-bold text-lg transition-colors duration-200 ease-in-out"
+              aria-label="explorer"
+            >
+              Explore Global Stocks &rarr;
+            </Link>
           </div>
-        
         </div>
-      
-        
+
         <h3 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest Market Insights
         </h3>
@@ -121,7 +118,6 @@ export default function Home({ posts }) {
             All Posts &rarr;
           </Link>
         </div>
-        
       )}
     </>
   )

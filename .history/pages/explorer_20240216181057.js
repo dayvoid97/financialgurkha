@@ -45,7 +45,7 @@ export default function explorer() {
         Start your journey with us today and see how fun and exciting the world of global markets
         can be!
       </p>
-      <h1 style={styles.header}>Explore Your Market Curiosity</h1>
+      <h1 style={styles.header}>Explore Away Your Curiosity</h1>
       <center>
         <CSVTable />
       </center>
