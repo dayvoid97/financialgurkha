@@ -13,14 +13,14 @@ export default async (req, res) => {
     const response = await fetch(API_ROUTE, {
       body: JSON.stringify(data),
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
-      method: 'POST',
+      method: 'POST'
     })
 
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `There was an error subscribing to the list.`,
+        error: 'There was an error subscribing to the list.'
       })
     }
 

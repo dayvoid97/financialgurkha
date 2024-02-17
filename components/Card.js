@@ -15,7 +15,8 @@ const Card = ({ title, description, imgSrc, href }) => {
   return (
     <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-md border-opacity-60 dark:border-gray-700">
-        {href ? (
+        {href
+          ? (
           <Link href={href} aria-label={`Link to ${title}`}>
             <Image
               onClick={logClickEvent}
@@ -26,7 +27,8 @@ const Card = ({ title, description, imgSrc, href }) => {
               height={306}
             />
           </Link>
-        ) : (
+            )
+          : (
           <Image
             alt={title}
             src={imgSrc}
@@ -34,16 +36,18 @@ const Card = ({ title, description, imgSrc, href }) => {
             width={544}
             height={306}
           />
-        )}
+            )}
         <div className="p-6">
           <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
-            {href ? (
+            {href
+              ? (
               <Link href={href} aria-label={`Link to ${title}`}>
                 {title}
               </Link>
-            ) : (
-              title
-            )}
+                )
+              : (
+                  title
+                )}
           </h2>
           <p className="mb-3 prose text-gray-500 max-w-none dark:text-gray-400">{description}</p>
           {href && (

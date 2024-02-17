@@ -3,12 +3,12 @@ import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
-export default function Projects() {
+export default function Projects () {
   console.log(projectsData)
 
   return (
     <>
-      <PageSEO title={`US Economic Data`} description={siteMetadata.description} />
+      <PageSEO title={'US Economic Data'} description={siteMetadata.description} />
       {/* - ${siteMetadata.author} */}
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">

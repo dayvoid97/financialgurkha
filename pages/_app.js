@@ -7,7 +7,7 @@ import Head from 'next/head'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 
-export default function App({ Component, pageProps }) {
+export default function App ({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class">
       <Head>

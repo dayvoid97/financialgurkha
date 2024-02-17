@@ -3,7 +3,7 @@ import fomcMinutes from '@/data/fomcMinutes'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
-export default function Projects() {
+export default function Projects () {
   return (
     <>
       <PageSEO

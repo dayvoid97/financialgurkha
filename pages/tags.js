@@ -5,13 +5,13 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 
-export async function getStaticProps() {
+export async function getStaticProps () {
   const tags = await getAllTags('blog')
 
   return { props: { tags } }
 }
 
-export default function Tags({ tags }) {
+export default function Tags ({ tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
     <>

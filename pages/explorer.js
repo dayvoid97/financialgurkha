@@ -7,33 +7,33 @@ const styles = {
     color: '#2E3D49',
     textAlign: 'center',
     margin: '30px 0',
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   },
   paragraph: {
     fontSize: '18px',
     textAlign: 'center',
     color: '#4A4A4A',
     margin: '0 20px',
-    lineHeight: '1.8',
+    lineHeight: '1.8'
   },
   nigeria: {
     color: '#008751',
-    fontSize: '24px',
+    fontSize: '24px'
   },
   china: {
     color: '#D60026',
-    fontSize: '24px',
+    fontSize: '24px'
   },
   usa: {
     color: '#3C3B6E',
-    fontSize: '24px',
+    fontSize: '24px'
   },
   indonesia: {
     color: '#EAAA00',
-    fontSize: '24px',
-  },
+    fontSize: '24px'
+  }
 }
-export default function explorer() {
+export default function explorer () {
   return (
     <div>
       <p style={styles.paragraph}>

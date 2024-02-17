@@ -6,7 +6,7 @@ import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
 import Comments from '@/components/comments'
 
-export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
+export default function PostLayout ({ frontMatter, authorDetails, next, prev, children }) {
   const { date, title } = frontMatter
 
   return (

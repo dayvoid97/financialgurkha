@@ -14,11 +14,13 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
       <meta property="og:site_name" content={siteMetadata.title} />
       <meta property="og:description" content={description} />
       <meta property="og:title" content={title} />
-      {ogImage.constructor.name === 'Array' ? (
-        ogImage.map(({ url }) => <meta property="og:image" content={url} key={url} />)
-      ) : (
+      {ogImage.constructor.name === 'Array'
+        ? (
+            ogImage.map(({ url }) => <meta property="og:image" content={url} key={url} />)
+          )
+        : (
         <meta property="og:image" content={ogImage} key={ogImage} />
-      )}
+          )}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={siteMetadata.twitter} />
       <meta name="twitter:title" content={title} />
@@ -71,17 +73,17 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
   const router = useRouter()
   const publishedAt = new Date(date).toISOString()
   const modifiedAt = new Date(lastmod || date).toISOString()
-  let imagesArr =
+  const imagesArr =
     images.length === 0
       ? [siteMetadata.socialBanner]
       : typeof images === 'string'
-      ? [images]
-      : images
+        ? [images]
+        : images
 
   const featuredImages = imagesArr.map((img) => {
     return {
       '@type': 'ImageObject',
-      url: `${siteMetadata.siteUrl}${img}`,
+      url: `${siteMetadata.siteUrl}${img}`
     }
   })
 
@@ -90,13 +92,13 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
     authorList = authorDetails.map((author) => {
       return {
         '@type': 'Person',
-        name: author.name,
+        name: author.name
       }
     })
   } else {
     authorList = {
       '@type': 'Person',
-      name: siteMetadata.author,
+      name: siteMetadata.author
     }
   }
 
@@ -105,7 +107,7 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
     '@type': 'Article',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': url,
+      '@id': url
     },
     headline: title,
     image: featuredImages,
@@ -117,10 +119,10 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
       name: siteMetadata.author,
       logo: {
         '@type': 'ImageObject',
-        url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`,
-      },
+        url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`
+      }
     },
-    description: summary,
+    description: summary
   }
 
   const twImageUrl = featuredImages[0].url
@@ -141,7 +143,7 @@ export const BlogSEO = ({ authorDetails, title, summary, date, lastmod, url, ima
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData, null, 2),
+            __html: JSON.stringify(structuredData, null, 2)
           }}
         />
       </Head>

@@ -1,23 +1,23 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: ['standard', 'plugin:react/recommended'],
   overrides: [
     {
       env: {
-        node: true
+        node: true,
       },
       files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
-        sourceType: 'script'
-      }
-    }
+        sourceType: 'script',
+      },
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react'],
   rules: {
@@ -26,6 +26,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-unused-expressions': 'off',
     'react/no-unescaped-entities': 'off',
-    'no-sequences': 'off'
-  }
+    'no-sequences': 'off',
+  },
 }

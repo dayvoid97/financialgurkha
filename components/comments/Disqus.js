@@ -7,7 +7,7 @@ const Disqus = ({ frontMatter }) => {
 
   const COMMENTS_ID = 'disqus_thread'
 
-  function LoadComments() {
+  function LoadComments () {
     setEnabledLoadComments(false)
 
     window.disqus_config = function () {
