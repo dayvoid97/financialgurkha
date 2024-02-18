@@ -1,19 +1,36 @@
 import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
-// Optional: Import Papaparse for efficient CSV parsing if you decide to use it
+// const handleExploreClick = () => {
+//   const uniqueId = Math.floor(Math.random() * 1000000); // Generates a random number
+//   navigate(`/unique-page/${uniqueId}`); // Programmatic navigation to the unique page
+// };
 
 const CSVTable = () => {
+  // const router = useRouter();
+  // const handleExploreClick = (stockIdentifier) => {
+  //   const encodedIdentifier = encodeURIComponent(stockIdentifier);
+  //   router.push(`../unique-page/${encodedIdentifier}`);
+  // };
   const [tableData, setTableData] = useState([])
+  const [typedValue, setTypedValue] = useState('') // for holding the search input
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredTableData, setFilteredTableData] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
   const columnName = 'Country' // This is the column we're searching in
 
   useEffect(() => {
+    const timerId = setTimeout(() => {
+      setSearchTerm(typedValue)
+    }, 500)
+    return () => clearTimeout(timerId) // Cleanup the timeout on component unmount or when typedValue changes
+  }, [typedValue])
+
+  useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true)
       try {
-        const response = await fetch('/comp-sheet-docs/glbcompbase.csv')
+        const response = await fetch('/comp-sheet-docs/wrldcmpdb.csv')
         const csvData = await response.text()
         const parsedData = parseCSV(csvData)
         setTableData(parsedData)
@@ -23,7 +40,6 @@ const CSVTable = () => {
       }
       setIsLoading(false)
     }
-
     fetchData()
   }, [])
 
@@ -38,7 +54,6 @@ const CSVTable = () => {
         setFilteredTableData(newFilteredTableData)
       }
     }
-
     filterData()
   }, [searchTerm, tableData, columnName])
 
@@ -47,6 +62,7 @@ const CSVTable = () => {
     // Split CSV into rows and then cells
     return csvData.split('\n').map((row) => row.split(','))
   }
+  // styling components
   const styles = {
     table: {
       width: '100%',
@@ -68,6 +84,14 @@ const CSVTable = () => {
     tr: {
       '&:nth-child(even)': {
         backgroundColor: '#f9f9f9'
+      },
+      exploreButton: {
+        cursor: 'pointer',
+        padding: '5px 10px',
+        backgroundColor: '#007bff',
+        color: 'white',
+        border: 'none',
+        borderRadius: '5px'
       }
     }
   }
@@ -77,20 +101,15 @@ const CSVTable = () => {
       <input
         type="text"
         placeholder={`Search in any ${columnName}...`}
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
+        value={typedValue}
+        onChange={(e) => setTypedValue(e.target.value)}
       />
 
-      {isLoading
-        ? (
+      {isLoading ? (
         <p>Loading...</p>
-          )
-        : searchTerm && filteredTableData && filteredTableData.length === 0
-          ? (
-        <p>No matching data found.</p>
-            )
-          : filteredTableData
-            ? (
+      ) : searchTerm && filteredTableData && filteredTableData.length === 0 ? (
+        <p id="error">Apologies. No matching stock entry found in our database..</p>
+      ) : filteredTableData ? (
         <table style={styles.table}>
           <thead>
             <tr style={styles.tr}>
@@ -100,6 +119,7 @@ const CSVTable = () => {
                     {header}
                   </th>
                 ))}
+              {/* <th style={styles.th}>Actions</th> Header for the explore button column */}
             </tr>
           </thead>
           <tbody>
@@ -115,12 +135,17 @@ const CSVTable = () => {
                     {cell}
                   </td>
                 ))}
+                {/* <td style={styles.td}>
+                <button style={styles.exploreButton} onClick={() => handleExploreClick(row[1])}>
+        + Explore
+      </button>
+
+                </td> */}
               </tr>
             ))}
           </tbody>
         </table>
-              )
-            : null}
+      ) : null}
     </div>
   )
 }

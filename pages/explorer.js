@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import CSVTable from '@/components/TableRender'
 
 const styles = {
@@ -26,26 +26,35 @@ const styles = {
   },
   usa: {
     color: '#3C3B6E',
-    fontSize: '24px'
+    fontSize: '28px'
   },
   indonesia: {
     color: '#EAAA00',
-    fontSize: '24px'
+    fontSize: '22px'
+  },
+  nepal: {
+    color: '#DC143C',
+    fontSize: '28px'
   }
 }
 export default function explorer () {
   return (
     <div>
       <p style={styles.paragraph}>
-        Whether you're curious about stocks in <span style={styles.nigeria}>Nigeria</span>,{' '}
-        <span style={styles.indonesia}>Indonesia</span>,{' '}
-        <span style={styles.usa}>the United States</span>, or{' '}
-        <span style={styles.china}>China</span>, we've got you covered. With an ever-growing list of
-        stocks to explore, there's always something new to learn and be amazed by. So why wait?
-        Start your journey with us today and see how fun and exciting the world of global markets
-        can be!
+        Whether you're curious about stocks in <br />
+        <span style={styles.indonesia}>Indonesia</span>, <span style={styles.nepal}>Nepal</span>,
+        <br />
+        <span style={styles.nigeria}>Nigeria</span>, <span style={styles.usa}>United States</span>,{' '}
+        <span style={styles.china}>China</span>, <br />
+        <i>or any other nation across the globe</i>
+        <br />
+        we've got you covered. With an ever-growing list of stocks to explore, there's always
+        something new to learn and be amazed by. So why wait? Start your journey with us today and
+        see how fun and exciting the world of global markets can be!
       </p>
       <h1 style={styles.header}>Explore Your Market Curiosity</h1>
+
+      <br />
       <center>
         <CSVTable />
       </center>

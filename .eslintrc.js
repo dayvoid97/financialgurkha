@@ -1,7 +1,13 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true
+  },
+  settings: {
+    react: {
+      version: 'detect' // Automatically detect the react version
+    }
   },
   extends: ['standard', 'plugin:react/recommended'],
   overrides: [
@@ -26,6 +32,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-unused-expressions': 'off',
     'react/no-unescaped-entities': 'off',
-    'no-sequences': 'off'
+    'no-sequences': 'off',
+    'multiline-ternary': 'off'
   }
 }
