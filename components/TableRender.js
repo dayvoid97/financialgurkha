@@ -7,11 +7,12 @@ import { useRouter } from 'next/router'
 // };
 
 const CSVTable = () => {
-  // const router = useRouter();
-  // const handleExploreClick = (stockIdentifier) => {
-  //   const encodedIdentifier = encodeURIComponent(stockIdentifier);
-  //   router.push(`../unique-page/${encodedIdentifier}`);
-  // };
+  const router = useRouter()
+  const handleExploreClick = (rowData) => {
+    const rowDataSerialized = encodeURIComponent(JSON.stringify(rowData))
+    router.push(`/unique-page/${rowDataSerialized}`)
+  }
+
   const [tableData, setTableData] = useState([])
   const [typedValue, setTypedValue] = useState('') // for holding the search input
   const [searchTerm, setSearchTerm] = useState('')
@@ -119,7 +120,7 @@ const CSVTable = () => {
                     {header}
                   </th>
                 ))}
-              {/* <th style={styles.th}>Actions</th> Header for the explore button column */}
+              <th style={styles.th}>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -135,12 +136,11 @@ const CSVTable = () => {
                     {cell}
                   </td>
                 ))}
-                {/* <td style={styles.td}>
-                <button style={styles.exploreButton} onClick={() => handleExploreClick(row[1])}>
-        + Explore
-      </button>
-
-                </td> */}
+                <td style={styles.td}>
+                  <button style={styles.exploreButton} onClick={() => handleExploreClick(row[1])}>
+                    + Explore
+                  </button>
+                </td>
               </tr>
             ))}
           </tbody>
