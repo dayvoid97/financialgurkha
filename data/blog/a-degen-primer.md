@@ -1,0 +1,72 @@
+---
+title: All About $DEGEN | A Primer on DEGEN (BASE) 🎩
+date: '2024-03-22'
+tags: ['Blockchain', 'Cryptocurrency', 'signals', 'DEGEN', 'BASE', 'Ethereum', 'Crypto', 'Altcoins']
+draft: false
+summary: What began as a tipping token in Warpcast was quickly adopted by blockchain-based apps like Drakula and Perl. Degen's meteoric rise has taken the token from 0.00001 to 1 cent per token today. Learn all about the DEGEN token in this article.
+images: ['/static/img/degen-article-cover.png']
+layout: PostLayout
+---
+
+**NOTE: This is NOT an investment advice.**
+
+## Introduction
+
+In the ever-evolving landscape of cryptocurrency, a new star has emerged that captures the essence of digital currency's innovative and community-driven spirit: the DEGEN token. Originally introduced as a modest tipping token within the Warpcast ecosystem, DEGEN's journey has been nothing short of spectacular, gaining rapid adoption across various smart and encapsulating applications/products such as Drakula Perl, and Brackets. DEGEN's exponential growth trajectory has seen it escalate from an initial value of 0.00001 to an impressive trading figure of 1 cent per token today. This article delves into the heart of DEGEN, exploring its functionality, acquisition methods, and its burgeoning community. Whether you're a seasoned crypto enthusiast or new to the space, understanding the dynamics of DEGEN offers a fascinating glimpse into the world of digital currencies and their potential to foster engagement and reward within online communities.
+
+<TOCInline toc={props.toc} asDisclosure toHeading={3}/>
+
+## How to get $DEGEN?
+
+### You Can Receive DEGEN as Tips
+
+**Content, Interaction, and Engagement**. Begin by joining the [Warpcast protocol](https://warpcast.com/~/invite-page/349481?id=e4ec8dd2). \$DEGEN **Airdrop 2** is running until the end of March. Users who post engaging, insightful, creative content have been earnings DEGEN tip allowances. Users active in communities like _[replyguys](https://warpcast.com/~/channel/replyguys), [paidgroup](https://warpcast.com/~/channel/paidgroup), [bros](https://warpcast.com/~/channel/bros)_ have also seen incoming degen tip points. A degen tip looks something like this:
+
+![How to get DEGEN tips](/static/img/degen-tip-example.png)
+
+**DEGEN Facts and Stats**
+More than 43 thousand wallets actively hold DEGEN tokens. Degen trading volume has exceeded /$10mn.
+![Degen marketcap, trading volume, and token holder stats](/static/img/degen-stats.png)
+
+### Buy DEGEN on exchanges
+
+You can buy degen on multiple centralized and decentralized exchanges. Degen can be swapped for other tokens on [Uniswap](https://app.uniswap.org/explore/tokens/base/0x4ed4e862860bed51a9570b96d89af5e1b0efefed). Degen is also listed on [Poloneix](https://poloniex.com/trade/DEGEN_USDT?type=spot) and [HTX](https://www.htx.com/trade/degen_usdt) exchanges. DEGEN is still cheap at less than 0.01 per token in Uniswap. Currently, more than 40,000 wallets hold the $DEGEN token. Token prices are different across different platforms. Uniswap has the best prices followed by CEX partners like HTX and Poloneix.
+
+## What is the Utility of DEGEN Token?
+
+**Three major apps/services, Drakula, Perl, and Brackets, with thousands of users are seamlessly integrated within the DEGEN ecosystem, so far.**
+
+- [Drakula.app](https://drakula.app/user/financialgurkha?invite=BrjK8K), an alternative to TikTok where users can create video content. Drakula introduced creator tokens which can be bought with DEGENs. If you have questions, [Alex](https://warpcast.com/alexmasmej.eth) is the creator of Drakula. Reach him directly on Warpcast.
+
+![DEGEN is integrated with Drakula.app](/static/img/drakula-degen.png)
+
+- [Perl.xyz](https://perl.xyz), a social gaming platform where you can make informed predictions and get rewarded if your predictions come right.
+
+![PERL is compatible with DEGEN tokens](/static/img/perl-degen.png)
+
+- [Bracket.game](https://bracket.game/), a unique platform for sports enthusiasts to actively engage with their favorite teams across various leagues, including the NFL, NBA, and NCAAB, by trading votes within the current and upcoming seasons.
+
+![Use DEGEN tokens to participate in brackets.game](/static/img/brackets-degen.png)
+
+## Where can I find more details on DEGEN
+
+Degen.tips is the official DEGEN token website and they have a [FAQ](<(https://www.degen.tips/faq)>) section. We recommend everyone to go to the official website to learn more about DEGEN tokens.
+
+Also, join the [Degen channel on Warpcast](https://warpcast.com/~/channel/degen), a community of more than 42.3 thousand DEGEN holders and enthusiasts.
+
+![Degen Warpcast Channel](/static/img/degen-channel.png)
+
+## What is the DEGEN token contract address
+
+The official contract address of DEGEN token is
+**0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed**
+
+**Carefully check the token address before making any transactions. We recommend going to degen.tips and clicking on the Basescan logo to get the official contract address.**
+
+You can also reach the official token page by going to the token's Basescan page from [here](https://basescan.org/token/0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed)
+
+## Conclusion
+
+The ascent of the DEGEN token from a novel tipping mechanism to a significant player in the blockchain arena exemplifies the rapid pace at which digital currencies can rise to prominence. Through its integration in platforms like Warpcast, and its adoption by applications like Drakula and Perl, DEGEN has not only showcased the potential for tokens to revolutionize the way we think about value exchange online but also highlighted the community's role in driving the success of a cryptocurrency. The various avenues for acquiring DEGEN, from receiving tips for engaging content to purchasing tokens on exchanges, reflect the token's accessibility and appeal. As DEGEN continues to evolve, the importance of staying informed through official channels and understanding the tokenomics behind its market performance cannot be overstated. With a strong community and a clear utility, DEGEN stands as a testament to the innovative and communal spirit that defines the cryptocurrency world.
+
+**NOTE: This is NOT an investment advice.**
